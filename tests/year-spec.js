@@ -1,4 +1,5 @@
 var expect = require('expect.js');
+var sinon = require('sinon');
 var YearColumn = require('../index').YearColumn;
 var moment = require('moment');
 var cal;
