@@ -18,6 +18,20 @@ seajs.use('../index', function(Calendar) {
 });
 ````
 
+## Readonly
+
+Readonly
+
+````html
+<input id="date-nothing-2" type="text" readonly="true"/>
+````
+
+````javascript
+seajs.use(['../index','jquery'], function(Calendar,$) {
+    new Calendar({trigger: '#date-nothing-2'});
+});
+````
+
 ## Set language later
 
 你也可以自己传入语言：
