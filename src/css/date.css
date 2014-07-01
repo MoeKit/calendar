@@ -43,7 +43,7 @@ table.ui-calendar-date tr {
   cursor: pointer;
   background-color: #ffe0e7;
   color: #d54969;
-  -webkit-transition:background-color 0.2s linear;
+  -webkit-transition: background-color 0.2s linear;
 }
 .ui-calendar-date .ui-calendar-date-column td.previous-month,
 .ui-calendar-date .ui-calendar-date-column td.next-month {
@@ -59,6 +59,7 @@ table.ui-calendar-date tr {
   color: #fff;
   background: #f34972;
   border-radius: 50%;
+  display: inline-block;
 }
 
 .ui-calendar-date .ui-calendar-date-column td.disabled-element {
